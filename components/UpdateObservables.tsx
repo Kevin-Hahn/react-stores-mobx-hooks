@@ -15,8 +15,8 @@ export const UpdateObservables = observer(() => {
 
   return (
     <React.Fragment>
-      <div>A value from StoreA: {storeA.someProperty || 'not yet set'}</div>
       <button onClick={handleClick}>Set value</button>
+      <p>A value from StoreA: {storeA.someProperty || 'not yet set'}</p>
     </React.Fragment>
   );
 });
